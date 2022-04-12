@@ -90,7 +90,7 @@ var getEditFormHTML = function(attribute){
 
 /* Loop over all form attribute and clone them into details part */
 var cloneEditForm = function(){
-	$('.issue.details .subject').append('<button class="refreshData">&#10227;</button>');
+	/* $('.issue.details .subject').append('<button class="refreshData">&#10227;</button>'); */
 	$(".issue.details ").wrap("<form id='fakeDynamicForm'>");
 
 	$('div.issue.details .attribute').each(function(){
